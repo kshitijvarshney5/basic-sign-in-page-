@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+ .outbox { 
+   
+    width: 100vw;
+    height: 100vh;
+    /* background:linear-gradient(to top left,purple ,pink) ; */
+    /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh6svGX31GpShW6eDZ3Z0Hf-bzZDqyoiCOHA4c_BFpbQ&usqp=CAU&ec=48600113") ; */
+    background-image: url("https://preview.redd.it/17hi91q4dib71.jpg?auto=webp&s=125f520ee5f10a50b4ab0069cdec12cbfc2bc776");
+    background-repeat: no-repeat;
+ }
+
+.innerbox{
+width:400px;
+margin: 0 auto;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+padding: 20px 40px;
+background-color: rgb(249, 251, 248);
+opacity: 0.8;
+border-radius: 4%;
+box-shadow: 2px 2px 5px;
+}
+.Signup-header h1{
+    font-size:2.5rem ;
+    color: rgb(87, 54, 54);
+    text-align: center;
+}
+.Signup-header p{
+    font-size:1.2rem ;
+    color: rgb(79, 68, 68);
+    text-align: center;
+}
+.inner-body {
+    margin: 20px;
+}
+.inner-body p{
+    margin: 10px;
+}
+.inner-body p input[type="submit"] {
+   background-color: rgb(144, 114, 114);
+   font-size: 1.2rem;
+}
+.inner-body p input[type="submit"]:hover{
+background-color:rgb(87, 54, 54) ;
+}
+.signup-footer p{
+    text-align: center;
+}
+.signup-footer p a{
+    text-align: center;
+    color: rgb(79, 50, 50);
+}
+.signup-footer p a:hover{
+    text-align: center;
+    color: rgb(25, 4, 4);
+}
